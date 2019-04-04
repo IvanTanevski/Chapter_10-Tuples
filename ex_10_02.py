@@ -16,7 +16,7 @@ while True:
         continue
 
 # In a blank list, with a for loop we append only the first number(hour) of the clock, first by splitting the line by spaces, then
-# the secong character from behind in the new 'words' list we split by ':' and we added on the 0th character(the hour) in the blank list.
+# the secong list item from behind in the new 'words' list we split by ':' and we added on the 0th list item(the hour) in the blank list.
 hoursList = list()
 for line in fhandle:
     if not line.startswith("From ") : continue
